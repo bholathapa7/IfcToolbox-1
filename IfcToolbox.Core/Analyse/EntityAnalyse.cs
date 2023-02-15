@@ -28,10 +28,10 @@ namespace IfcToolbox.Core.Analyse
         {
             using (var model = IfcStore.Open(filePath))
             {
-                Log.Information(HierarchyReader.GetFullHierarchy(model, true, true).Show(true));
-                Log.Information(HierarchyReader.GetTypedHierarchy(model, true).Show(true));
-                //Log.Information(HierarchyReader.GetSpatialHierarchy(model, "IfcSite").Show(true));
-                //Log.Information(HierarchyReader.GetSpatialHierarchy(model, "IfcBuildingStorey").Show(true));
+                // Log.Information(HierarchyReader.GetFullHierarchy(model, true, true).Show(true));
+                // Log.Information(HierarchyReader.GetTypedHierarchy(model, true).Show(true));
+                // Log.Information(HierarchyReader.GetSpatialHierarchy(model, "IfcSite").Show(true));
+                Log.Information(HierarchyReader.GetSpatialHierarchy(model, "IfcBuildingStorey").Show(true));
             }
         }
     }

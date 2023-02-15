@@ -90,7 +90,7 @@ namespace IfcToolbox.Tests
             ConsoleFile.CreateCopyIfcFile(filePath, outputFileName);
             IConfigSplit config = ConfigFactory.CreateConfigSplit();
             config.SplitStrategy = SplitStrategy.ByBuildingStorey;
-            config.SelectedItems = new List<string> { "137", "131" };
+            config.SelectedItems = new List<string> {};
             using var model = IfcStore.Open(outputFileName);
             SplitterProcessor.Split(model, config, outputFileName);
         }

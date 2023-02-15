@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31424.327
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IfcToolbox.Core", "IfcToolbox.Core\IfcToolbox.Core.csproj", "{A8144750-8FCE-495F-9406-D3F66A248AC4}"
 EndProject
@@ -10,6 +10,9 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IfcToolbox.Tests", "IfcToolbox.Tests\IfcToolbox.Tests.csproj", "{218BE48C-6DF3-46AE-9F88-3E82037155B3}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IfcToolbox.Examples", "IfcToolbox.Examples\IfcToolbox.Examples.csproj", "{25DA46D8-C673-4F52-B4BD-79894EE11ED2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A8144750-8FCE-495F-9406-D3F66A248AC4} = {A8144750-8FCE-495F-9406-D3F66A248AC4}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

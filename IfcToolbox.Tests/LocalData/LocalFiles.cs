@@ -1,8 +1,9 @@
-﻿namespace IfcToolbox.Tests
+﻿
+namespace IfcToolbox.Tests
 {
     public class LocalFiles
     {
-        public const string TestOutputFolder = @"C:\Users\yoush\Desktop\IFC Files\Output";
+        public const string TestOutputFolder = @"C:\Users\LEGION\Desktop\IfcSamples\";
 
         public const string Ifc2s3_Duplex_Electrical = "TestFiles\\Ifc2s3_Duplex_Electrical.ifc";
         public const string Ifc2x3_Duplex_Architecture = "TestFiles\\Ifc2x3_Duplex_Architecture.ifc";
@@ -23,5 +24,7 @@
         public const string Ifc4_SampleHouse_IfcWallStandardCase = "TestFiles\\Ifc4_SampleHouse_IfcWallStandardCase.ifc";
         public const string Ifc4_SampleHouse_IfcWindow = "TestFiles\\Ifc4_SampleHouse_IfcWindow.ifc";
         public const string Ifc4_WallElementedCase = "TestFiles\\Ifc4_WallElementedCase.ifc";
+
+        public const string Ifc2x3_Korean_Building = "TestFiles\\KoreanBuilding.ifc";
     }
 }
