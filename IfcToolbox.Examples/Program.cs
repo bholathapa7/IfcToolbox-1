@@ -9,7 +9,7 @@ namespace IfcToolbox.Examples
         {
             Marslogger.ConfigureConsoleLogger();
             Marslogger.Step("Starting...");
-            SampleProcess.Start();
+            SampleProcess.Start(args);
             Marslogger.Step("Finished. Press enter key to exit...", true);
         }
     }

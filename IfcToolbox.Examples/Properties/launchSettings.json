@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "IfcToolbox.Examples": {
+      "commandName": "Project",
+      "commandLineArgs": "one space two"
+    }
+  }
+}
